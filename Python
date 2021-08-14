@@ -1,0 +1,19 @@
+import re
+import string
+
+
+def printsomething():
+ print("Enter a number:")      # prompting the user
+
+def MultiplicationTable(v):   # passing num1
+    for i in range (1, 11):  # for loop to build table
+        print(i, 'x', v, '=', i * int(v)) #using num1
+
+           
+def DoubleValue(x):  # utilizing num1
+    print("Value doubled is: ")
+    return x * 2   # returning  doubled value
+ 
+
+
+    
